@@ -173,43 +173,26 @@
     },
     "remarks": "🇩🇪 #3 LTE - ВСЕ ОПЕРАТОРЫ 🚀",
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
-        "rules": [
-            {
-                "inboundTag": [
-                    "metrics_in"
-                ],
-                "outboundTag": "metrics_out"
-            },
-            {
-                "inboundTag": [
-                    "socks"
-                ],
-                "outboundTag": "proxy",
-                "port": "53"
-            },
-            {
-                "ip": [
-                    "1.1.1.1"
-                ],
-                "outboundTag": "proxy",
-                "port": "53"
-            },
-            {
-                "ip": [
-                    "8.8.8.8"
-                ],
-                "outboundTag": "direct",
-                "port": "53"
-            },
-            {
-                "inboundTag": [
-                    "dns-in"
-                ],
-                "outboundTag": "dns-out"
-            }
-        ]
+  "domainStrategy": "IPIfNonMatch",
+  "rules": [
+    {
+      "inboundTag": [
+        "metrics_in"
+      ],
+      "outboundTag": "metrics_out"
     },
+    {
+      "inboundTag": [
+        "dns-in"
+      ],
+      "outboundTag": "dns-out"
+    },
+    {
+      "network": "tcp,udp",
+      "outboundTag": "proxy"
+    }
+  ]
+},
     "stats": {
     }
 }

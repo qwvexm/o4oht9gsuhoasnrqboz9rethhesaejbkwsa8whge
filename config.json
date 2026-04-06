@@ -96,7 +96,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "rus2.loneliumvpn.click",
+                        "address": "178.155.26.27",
                         "port": 443,
                         "users": [
                             {
@@ -114,7 +114,7 @@
                 "network": "tcp",
                 "realitySettings": {
                     "allowInsecure": false,
-                    "fingerprint": "qq",
+                    "fingerprint": "chrome",
                     "publicKey": "29QFVYOrxbTbGWLQMmTVP-Zo5_rcmeMDGc9wz0GTozs",
                     "serverName": "www.cloudflare.com",
                     "shortId": "6ba85179e30d4fc2",

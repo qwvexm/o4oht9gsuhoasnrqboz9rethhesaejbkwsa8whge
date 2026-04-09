@@ -1,1 +1,15 @@
+#profile-update-interval: 1
+#profile-title: 🍊 Orange VPN
+#support-url: https://t.me/vless_vpn_orange
+#announce: Если в вашем регионе ввели белые списки (работает только ВК, Яндекс) и у вас не работает ВПН - попробуйте все наши локации.
+#subscription-userinfo: upload=0; total=0
 
+vless://f8b269b8-e1e9-452d-b375-cf1d89913bd1@212.233.98.145:5443?encryption=none&security=reality&sni=max.ru&fp=chrome&pbk=SJwCg-2RraxdmPp82iqmwV0cY7bpnimExCU02eZck1k&sid=1d025360f2d2be56&type=tcp&headerType=none#LTE - ВСЕ ОПЕРАТОРЫ
+vless://533df493-2249-4e6d-8638-2d39b4d6b577@158.160.240.92:1443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=www.amd.com&pbk=JeMoMGNqaxs0RkMU75hvpO3UbfL0Xc8UFDcf0uPBj3A&sid=c7963b161540ef#LTE - МТС, Т2 и тд
+vless://688f20d7-ad3d-49fc-82ae-33eca0ba0349@158.160.240.92:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=www.apple.com&pbk=z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY&sid=b99e82f6d99f6e#LTE- МТС, Мегафон, Билайн РТК и тд
+vless://564cfa99-9bf0-40bf-a9a8-685b2680c678@93.77.179.11:1443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=MVRNPCHMN7_U6X2c6AbxG52t_PFOaU09H3wdcDjqGUY&security=reality&sid=833fda1e&sni=www.sony.com&type=tcp#LTE - МТС, РТК Билайн и тд
+vless://50e5dbb7-be12-4964-b921-d03f1e2f25b7@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#🇷🇺 LTE - Мегафон, Т2, йота, МТС и тд
+vless://b59cf03c-704f-44b0-b329-d3443e860481@217.16.17.40:9830?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&sni=google.com#LTE - Билайн, йота резерв
+vless://364a04d9-1b66-0011-91dd-a7e7fd81b5f8@176.108.246.56:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pimg.mycdn.me&fp=ios&pbk=73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU&sid=062f17&type=tcp&headerType=none#🇫🇮 Финляндия VPN
+vless://364a04d9-1b66-462b-91dd-a7e7fd81b5f8@72.57.78.89:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tiredofyou.site&fp=ios&pbk=gbP2G_j0cmFvgmWaWLpzZavEzQiPzky-fApmbF2BWxU&sid=8d3e824947a4cb&type=tcp&headerType=none#🇳🇱 Нидерланды VPN
+vless://d530621b-55f4-4935-b2b8-9432ea8b87cf@51.250.97.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-6-4.legendary-vpn.com&pbk=UZcUXcDWwIkPoLsqflKMGiFx50MERRpum96y-y5Dv1Q&sid=ffd676bc2a2657ef#🇪🇺 ТЕХНИЧЕСКИЙ СЕРВЕР
